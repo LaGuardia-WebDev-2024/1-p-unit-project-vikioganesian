@@ -19,24 +19,34 @@ Select ONE Additional Feature to Add
     <head>
         <meta charset="utf-8">
         <title>Unit 1 Project</title>
-        <style>
-#myDIV {background: black;
-animation: mymove 7s infinite;
+<style>
+
+    body, html{
+    
+      
+        animation: colorChange 3s infinite alternate;
+
+    }
+
+@keyframes colorChange{
+
+    0%{ background-color: rgb(255, 105, 105);}
+    100%{background-color: rgb(68, 11, 11);}
 }
-@keyframes mymove {
-    from {background-color: black;}
-to {background-color: darkred;} }
+
 </style>
     </head>
     <body>
-        <body style="background-color: #10130d;"></body>
-<font color=white><h1>Fashion brands I love</h1></font>
+<body style="background-color: #10130d;"></body>
+<em><font color=white><h1>Fashion brands I love</h1></font></em>
 <ul>
      <font color=white><li>Maison margiela</li></font>
      <font color=white><li>Dirk Bikkemberg</li></font>
+     <img src="https://akaibu.co/cdn/shop/files/IMG_3909_4472x.jpg?v=1702865116"
+     width="200">
      <font color=white><li>Anne Demeulemeester</li></font>
 </ul>
- <font color=white><h1>My current wishlist</h1></font>
+<em><font color=white><h1>My current wishlist</h1></font></em>
 <div id="myDIV"></div>
     </body>
 </html>
